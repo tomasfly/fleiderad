@@ -1,0 +1,21 @@
+body {
+  padding: 10px;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.logo {
+  color: black;
+  top: 50%;
+  left: 45%;
+  position: relative; }
+
+.subtitulo {
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+  position: relative;
+  padding: 10px;
+  padding-top: 1px; }
+
+/*# sourceMappingURL=style.css.map */

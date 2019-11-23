@@ -1,0 +1,80 @@
+<% include header %>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+        </div>
+        <div class="col-sm">
+          <form action="/create-task" method="POST">
+            <div class="form-group">
+              <h2>Create a task</h2>
+              <label for="summary">Summary</label>
+              <input type="text" class="form-control rounded-0" name="summary" placeholder="Input task summary">
+
+              <label for="project">Project</label>
+              <input type="text" class="form-control rounded-0" id="project" placeholder="Input project">
+
+              <label for="priority">Priority</label>
+              <input type="text" class="form-control rounded-0" id="priority" placeholder="Input priority">
+
+              <label for="description">Description</label>
+              <input type="text" class="form-control rounded-0" id="description" placeholder="Input description">
+
+              <label for="assignee">assignee</label>
+              <input type="text" class="form-control rounded-0" id="assignee" placeholder="Input assignee">
+
+              <label for="reporter">reporter</label>
+              <input type="text" class="form-control rounded-0" id="reporter" placeholder="Input reporter">
+              <!-- <small id="summaryHelp" class="form-text text-muted">Enter summary of task</small> -->
+            </div>
+            <button type="submit" class="btn btn-primary rounded-0">Submit</button>
+          </form>
+        </div>
+        <div class="col-sm">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

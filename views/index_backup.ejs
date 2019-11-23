@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- <style>
+    .logo {
+      position: fixed; /* or absolute */
+      top: 40%;
+      left: 50%;
+    }
+    </style> -->
+  <title><%= title %></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style type="text/css">
+    body {
+      background: #00ff00 !important;
+    }
+    p {
+      font-size: 20px;
+    }
+
+    h1 {
+      font-size: 82px;
+    }
+
+    /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+  </style>
+</head>
+
+<body>
+
+
+  <div class="text-center">
+    <div class="row align-items-start bg-light">
+      <div class="col">
+      </div>
+      <div class="col">
+      </div>
+      <div class="col">
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+          <!-- <h1><%= title %></h1> -->
+
+      </div>
+      <div class="col">
+        <!-- <p>Integrated Marketing Tool</p>
+        <img src="/images/logo.png" width="80" height="80">         -->
+      </div>
+      <div class="col">
+
+      </div>
+    </div>
+    <div class="row align-items-end ">
+      <div class="col">
+          <input type="button" class="btn btn-info" value="Campaigns" onclick=" relocate_home()">
+          <script>
+            function relocate_home() {
+              location.href = "/campaigns";
+            } 
+          </script>
+      </div>
+
+      <div class="col">
+          <input type="button" class="btn btn-info" value="Investigations" onclick=" relocate_inv()">
+          <script>
+            function relocate_inv() {
+              location.href = "/investigation";
+            } 
+          </script>
+      </div>
+
+      <!-- <div class="col">
+          <input type="button" class="btn btn-info" value="Customers" onclick=" relocate_cust()">
+          <script>
+            function relocate_cust() {
+              location.href = "/customers";
+            } 
+          </script>
+      </div>
+      <div class="col">
+          <input type="button" class="btn btn-info" value="Finance" onclick=" relocate_cust()">
+          <script>
+            function relocate_cust() {
+              location.href = "/customers";
+            } 
+          </script>
+      </div>
+      <div class="col">
+          <input type="button" class="btn btn-info" value="Tasks" onclick=" relocate_cust()">
+          <script>
+            function relocate_cust() {
+              location.href = "/customers";
+            } 
+          </script>
+      </div>
+      <div class="col">
+          <input type="button" class="btn btn-info" value="Surveys" onclick=" relocate_cust()">
+          <script>
+            function relocate_cust() {
+              location.href = "/customers";
+            } 
+          </script>
+      </div>
+      <div class="col">
+          <input type="button" class="btn btn-info" value="Marketing Digital" onclick=" relocate_cust()">
+          <script>
+            function relocate_cust() {
+              location.href = "/marketing-digital";
+            } 
+          </script>
+      </div> -->
+    </div>
+  </div>
+</body>
+
+</html>

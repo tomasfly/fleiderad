@@ -1,0 +1,4 @@
+{
+    "evoMoralesArticulo":"https://infobae.talk.coralproject.net/embed/stream?asset_url=https%3A%2F%2Fwww.infobae.com%2Fpolitica%2F2019%2F11%2F20%2Falberto-fernandez-suspendio-su-viaje-a-europa-para-concentrarse-en-la-definicion-del-gabinete-y-las-primeras-medidas-de-su-gobierno%2F&initialWidth=1138&childId=coral_talk_stream&parentTitle=Alberto%20Fern%C3%A1ndez%20suspendi%C3%B3%20su%20viaje%20a%20Europa%20para%20concentrarse%20en%20la%20definici%C3%B3n%20del%20Gabinete%20y%20las%20primeras%20medidas%20de%20su%20Gobierno%20-%20Infobae&parentUrl=https%3A%2F%2Fwww.infobae.com%2Fpolitica%2F2019%2F11%2F20%2Falberto-fernandez-suspendio-su-viaje-a-europa-para-concentrarse-en-la-definicion-del-gabinete-y-las-primeras-medidas-de-su-gobierno%2F",
+    "mongoDBConnectionString":"mongodb://localhost:27017"
+}

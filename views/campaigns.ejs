@@ -1,0 +1,75 @@
+<% include header %>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- <style>
+    .logo {
+      position: fixed; /* or absolute */
+      top: 40%;
+      left: 50%;
+    }
+    </style> -->
+  <title>Campaigns</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Client</th>
+          <th scope="col">Start Date</th>
+          <th scope="col">End Date</th>
+          <th scope="col">Budget</th>
+          <th scope="col">Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</th>
+          <td><%= client %></td>
+          <td><%= startDate %></td>
+          <td><%= endDate %></td>
+          <td><%= budget %></td>
+          <td>Link to Campaign detail</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
