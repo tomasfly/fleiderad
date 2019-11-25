@@ -8,6 +8,13 @@ var sassMiddleware = require('node-sass-middleware');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+let mongoDb = require('./connection/mongodb');
+
+mongoDb.connectToServer( function( err, client ) {
+  if (err) console.log(err);
+  console.log('connected to mongo');
+} );
+
 var app = express();
 
 // view engine setup
