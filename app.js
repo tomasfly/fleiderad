@@ -10,10 +10,10 @@ var usersRouter = require('./routes/users');
 
 let mongoDb = require('./connection/mongodb');
 
-mongoDb.connectToServer( function( err, client ) {
-  if (err) console.log(err);
-  console.log('connected to mongo');
-} );
+// mongoDb.connectToServer( function( err, client ) {
+//   if (err) console.log(err);
+//   console.log('connected to mongo');
+// } );
 
 var app = express();
 

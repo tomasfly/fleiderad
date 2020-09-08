@@ -22,10 +22,10 @@ app.get('/campaigns', function (req, res, next) {
 });
 //How DB should be used from now on.
 app.get('/home', function (req, res, next) {
-  var db = mongoDb.getDb();
-  db.collection('tasks').find().toArray(function (err, results) {
-    res.render('home', { results });
-  })
+  // var db = mongoDb.getDb();
+  // db.collection('tasks').find().toArray(function (err, results) {
+  //   res.render('home', { results });
+  // })
 });
 
 app.get('/investigations', function (req, res, next) {

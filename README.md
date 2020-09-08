@@ -8,3 +8,5 @@ Scope:
 - CRUD campaigns
 - CRUD clients
 - Market research features
+
+http://localhost:3000/home
