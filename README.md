@@ -1,6 +1,4 @@
-Express + MongoDB project with a Selenium module. 
-
-FleiderAd is under construction.
+Express + MongoDB project with a Selenium module.
 
 Scope:
 
